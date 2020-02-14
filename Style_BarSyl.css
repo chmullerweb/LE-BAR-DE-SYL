@@ -1,0 +1,216 @@
+/*Police*/
+
+@font-face {
+    font-family: 'Police/steelfish/steelfishregular';
+    src: url('Police/steelfish/steelfish_rg-webfont.woff2') format('woff2'),
+         url('Police/steelfish/steelfish_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Police/montaseli_sans/montaselisans';
+    src: url('Police/montaseli_sans/montaseli_sans-webfont.woff2') format('woff2'),
+         url('Police/montaseli_sans/montaseli_sans-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*Corps du texte - éléments en commun*/
+img {
+	width: 180px;
+	height: 320px;
+	border: 1px black solid;
+	text-align: center;
+}
+
+body{  
+
+	background: url("Images/background.jpg"); 
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+#bloc_page
+{
+	font-family: 'Police/steelfish/steelfishregular';
+	color : black;
+	font-size: 0.9em;
+}
+
+h2{
+    color: white;
+    border-bottom: 3px solid #760001;
+    font-size: 2em;
+	font-family: 'Police/montaseli_sans/montaselisans';
+}
+
+h3{
+	color: black;
+    font-size: 1.6em;
+	font-family: 'Police/steelfish/steelfishregular';
+	text-align: center;
+}
+
+figcaption{
+	text-align: center;
+	flex-wrap: wrap;
+	font-size: 1.2em;
+}
+
+figure{
+	text-align: center;
+	}
+
+
+/*Header*/
+
+h1{
+	font-size: 4em;
+	font-family: 'Police/montaseli_sans/montaselisans';
+	color: white;
+	text-align: center;
+	padding-top: 30px;
+
+}
+
+#BardeSyl{
+	width: 300px;
+	height : 350px;
+	margin-right: 17px;
+	margin-top: 15px;
+	border: 2px black solid;
+	box-shadow:2px 2px 2px white;
+	border-radius: 3px;
+}
+
+
+#en-tête{
+    display: flex;
+}
+
+#intro{
+	margin-left: 80px;
+	margin-right: 80px;
+	margin-top: 100px;
+	text-align: justify;
+	font-size: 1.8em;
+	
+}
+
+#Coctail_Mystère{
+	font-size: 1em;
+}
+
+
+/* Navigation */
+
+
+nav ul
+{
+    width : 300px;
+    margin-top: 100px;
+    margin-left: 50px;
+    list-style-type: none;
+    font-size: 2.5em;
+}
+
+nav li
+{
+    width : 200px;
+    padding-bottom: 30px;
+
+} 
+
+nav a
+{
+    padding-bottom: 3px;
+    color : black;
+}
+
+nav a:hover
+{
+    color: white;
+    border-bottom: 3px solid #760001;
+}
+
+
+/* Section Cocktail de Fruit */
+.Cocktails{
+	display: flex;
+	margin-top: 30px;
+	align-content: center;
+	justify-content: space-around;
+}
+
+
+
+/*Footer*/
+
+#END{
+    display: flex;
+}
+
+#Infos
+{
+    width : 300px;
+    margin-top: 30px;
+    margin-left: 50px;
+    list-style-type: none;
+    font-size: 2.5em;
+    color : white;
+}
+
+#Syl{
+	color: black;
+    font-size: 2em;
+	font-family: 'Police/steelfish/steelfishregular';
+	text-align: left;
+	margin-left: 130px;
+	margin-bottom: -10px;
+}
+
+#biographie{
+	margin-left: 100px;
+	margin-right: 80px;
+	text-align: justify;
+	font-size: 1.8em;
+}
+
+#Photo_Syl{
+	width: 420px;
+	height : 280px;
+	margin-right: 17px;
+	margin-top: 70px;
+	border: 2px black solid;
+	box-shadow:2px 2px 2px white;
+	border-radius: 3px;
+
+}
+
+.Copyrights{
+	text-align: center;
+
+}
+
+/* PAGE COCKTAIL MYSTERE */
+
+.BardeSylMax{
+	margin : auto;
+	margin-left: 50px;
+	width: 500px;
+	height : 600px;
+	margin-right: 17px;
+	margin-top: 15px;
+	border: 2px black solid;
+	box-shadow:2px 2px 2px white;
+	border-radius: 3px;
+}
+
+#ingrédients, #préparation{ 
+	font-size: 1.6em;
+
+}
+
